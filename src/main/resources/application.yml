@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: provider
+  profiles:
+    active: local
+
+server:
+  port: 3002
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://eureka:1234@localhost:3000/eureka/
