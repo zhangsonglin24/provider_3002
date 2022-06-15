@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.forest.provider.mapper.HospitalInfoMapper">
+  <resultMap id="BaseResultMap" type="com.forest.provider.entity.HospitalInfo">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="hospital_id" jdbcType="VARCHAR" property="hospitalId" />
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="area_id" jdbcType="INTEGER" property="areaId" />
+    <result column="hospital_name" jdbcType="VARCHAR" property="hospitalName" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="zip_code" jdbcType="VARCHAR" property="zipCode" />
+    <result column="longitude" jdbcType="DOUBLE" property="longitude" />
+    <result column="latitude" jdbcType="DOUBLE" property="latitude" />
+    <result column="hospital_type" jdbcType="VARCHAR" property="hospitalType" />
+    <result column="hospital_level" jdbcType="VARCHAR" property="hospitalLevel" />
+    <result column="contact" jdbcType="VARCHAR" property="contact" />
+    <result column="golive_status" jdbcType="VARCHAR" property="goliveStatus" />
+    <result column="logo_addr" jdbcType="VARCHAR" property="logoAddr" />
+    <result column="platform" jdbcType="VARCHAR" property="platform" />
+    <result column="sort_code" jdbcType="INTEGER" property="sortCode" />
+    <result column="open_flag" jdbcType="VARCHAR" property="openFlag" />
+    <result column="region_flag" jdbcType="BIT" property="regionFlag" />
+    <result column="close_reason" jdbcType="VARCHAR" property="closeReason" />
+    <result column="close_alert_info" jdbcType="VARCHAR" property="closeAlertInfo" />
+    <result column="online_flag" jdbcType="INTEGER" property="onlineFlag" />
+    <result column="desc_title" jdbcType="VARCHAR" property="descTitle" />
+    <result column="hospital_desc" jdbcType="VARCHAR" property="hospitalDesc" />
+    <result column="province_name" jdbcType="VARCHAR" property="provinceName" />
+    <result column="city_name" jdbcType="VARCHAR" property="cityName" />
+    <result column="terminal_address" jdbcType="VARCHAR" property="terminalAddress" />
+    <result column="outpatient" jdbcType="INTEGER" property="outpatient" />
+    <result column="enable" jdbcType="BIT" property="enable" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="xinjiang_v3" jdbcType="BIT" property="xinjiangV3" />
+    <result column="source_type" jdbcType="VARCHAR" property="sourceType" />
+    <result column="source_id" jdbcType="VARCHAR" property="sourceId" />
+    <result column="province_code" jdbcType="VARCHAR" property="provinceCode" />
+    <result column="city_code" jdbcType="VARCHAR" property="cityCode" />
+    <result column="concurrent_amount" jdbcType="TINYINT" property="concurrentAmount" />
+    <result column="fault_flag" jdbcType="BIT" property="faultFlag" />
+    <result column="fault_reason" jdbcType="VARCHAR" property="faultReason" />
+    <result column="data_center_sub_flag" jdbcType="TINYINT" property="dataCenterSubFlag" />
+    <result column="fazai_score" jdbcType="VARCHAR" property="fazaiScore" />
+  </resultMap>
+</mapper>

@@ -12,3 +12,9 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://eureka:1234@localhost:3000/eureka/
+
+mybatis:
+  mapper-locations: classpath*:mappings/*.xml
+  type-aliases-package: com.forest.provider.entity
+  configuration:
+    map-underscore-to-camel-case: true
